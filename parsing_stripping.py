@@ -3,7 +3,7 @@ try:
     fhand = open(inp)
     for line in fhand:
         line = line.rstrip()
-        print(line.lower())
+        print(line.upper())
 except:
     print("file cannot be opened:", inp)
     exit()
