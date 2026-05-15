@@ -6,4 +6,5 @@ for line in fhand:
         continue
     words = line.split()
     #print(words)
-    print(words[1])
+    words1 = words[1].split('@')
+    print(words1[1])
