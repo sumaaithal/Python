@@ -8,7 +8,6 @@ for line in handle:
     wds = line.split()
     if len(wds) < 3 or wds[0] != 'From':
         continue
-    
     else:
         email = wds[1]
         d[email] = d.get(email,0) + 1
